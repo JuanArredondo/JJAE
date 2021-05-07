@@ -1,16 +1,9 @@
-# MMMV-CID
+# MTIE
 Proyecto Final - Modelos de Arquitecturas Orientadas a Servicios
 
-### Ing. Miguel Manuel Martínez Vázquez
-### Matricula 00614948
+### JUAN JOSE ARREDONDO ESTRADA
+### 615432
 
-[![Versión](https://img.shields.io/badge/Versión-0.0.1-blue.svg)](https://github.com/djmai/MMMV-CICD/releases/tag/Deploy-CI-CD-v0.0.1)
-
-[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://paypal.me/IngMiguelMartinez?locale.x=es_XC)
-
-[![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.link/7trr5f)
-
-_Este repositorio contiene todo el despliegue de Integración y Distribución Continuas (CI/CD) los cuales son subconjuntos diferenciados de tareas agrupadas en lo que se conoce como etapas del canal._
 
 ## Introducción
 
@@ -23,69 +16,8 @@ Este proyecto hace uso de los siguientes componentes por medio del uso de conten
 - [X] Docker-Compose
 
 
-## Enlaces rápidos
-
-- [Comenzando 🚀](#Comenzando)
-  - [Pre-requisitos 📋](#Pre-requisitos)
-- [Instalación 🔧](#Instalación)
-  - [Ejecución Rápida 🚀](#Speed)
-  - [Configuración Windows 10 ⚙️](#Win10)
-  - [Instalación de Docker Desktop ⚙️](#Docker)
-  - [Instalación de Chocolatey ⚙️](#Chocolatey)
-  - [Instalación de Docker Machine ⚙️](#Docker-Machine)
-  - [Creación de máquina virtual con Docker Machine ⚙️](#Create-VM)
-  - [Creación de contenedores ⚙️](#Create-Containers) 
-  - [Instalación de Docker-Compose ⚙️](#Docker-Compose) 
-  - [Clonar repositorio ⚙️](#Clon-Repo) 
-  - [Configuración de volumenes y data 🔩](#Volumens)
-  - [Comandos Docker ⚙️](#Comandos-Docker) 
-- [Despliegue 📦](#Despliegue)
-  - [Primer Inicio ✔️](#Start)
-  - [Actualización ❓](#Update)
-- [Posibles Errores 🛠️](#Errors)
-- [Construido con 🛠️](#Construido)
-- [Contribuyendo 🖇️](#Contribuyendo)
-- [Wiki 📖](#Wiki)
-- [Versionado 📌](#Versionado)
-- [Autores ✒️](#Autores)
-- [Licencia 📄](#Licencia)
-- [Expresiones de Gratitud 🎁](#Gratitud)
-
-<a name="Comenzando"></a>
-## Comenzando 🚀
-
-Como obtener una copia del repositorio completo para trabajar de forma local si te agrada lo que he desarrollado
-
-Para crear la carpeta de `MMMV-CICD` e instalar los requerimientos sólo clona el repo:
-
-```bash
-# Clona el repo desde tu terminal:
-> git clone https://github.com/djmai/MMMV-CICD.git
-```
-
-```bash
-# Clona el repo desde Github Desktop (Windows):
-1. Inicia sesión en GitHub y GitHub Desktop antes de comenzar la clonación.
-
-2. En GitHub, visita la página principal del repositorio.
-
-3. Sobre la lista de archivos, da clic en  Código.
-
-4. Clic en Open with GitHub Desktop para clonar y abrir el repositorio con with GitHub Desktop.
-
-5. Haz clic en Choose... (Elegir...) y, a través de Windows Explorer, desplázate hasta la ruta donde deseas clonar el repositorio.
-
-6. El botón Clone (Clonar)
-```
-
-Mira **Programador** para conocer como desplegar el proyecto.
-
-<a name="Pre-requisitos"></a>
-### Pre-requisitos 📋
-
 _Para poder realizar el despliegue correctamente del proyecto ocuparemos lo siguiente_
 
-```bash
 
 - Sistema Operativo
   - Windows 10 Pro
@@ -103,7 +35,7 @@ _Para poder realizar el despliegue correctamente del proyecto ocuparemos lo sigu
   - Queries SQL Personalizados
   - Rancher OS [Descarga Aquí](https://github.com/rancher/os/releases/download/v1.5.8/rancheros.iso/)
 
-```
+
 
 <a name="Instalación"></a>
 ## Instalación 🔧
@@ -111,15 +43,10 @@ _Para poder realizar el despliegue correctamente del proyecto ocuparemos lo sigu
 <a name="Speed"></a>
 #### Ejecución Rápida
 
-```bash
-
-# Accedemos al a carpeta del proyecto clonado
-> cd MMMV-CICD
 
 # Ejecutamos el siguiente comando
 > docker-compose up --build -d
 
-```
 <a name="Win10"></a> 
 ### Configuración Windows 10
 
@@ -154,9 +81,7 @@ Instalar [Docker Desktop](https://www.docker.com/products/docker-desktop) y post
 
 Instalar **Chocolatey** <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Chocolatey_icon.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="28" height="28" /> con **Windows PowerShell** <img src="https://4.bp.blogspot.com/-VnHaVPAfOms/XDepW52T1BI/AAAAAAAAGQo/ZzujNs2KPkEmmtF1Astea01BkZ6RGStswCLcBGAs/s1600/powershell.png" width="28" height="28" /> con los siguientes comandos: 
 
-    ``` 
-    > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) 
-    ``` 
+
     
 Revisar la versión de Chocolatey instalada con el comando: `choco` para visualizar la versión y el comando de ayuda.
 
@@ -174,10 +99,10 @@ Para validar la instalación ejecutar el comando: `docker-machine version`.
 <a name="Create-VM"></a> 
 ## Creación de máquina virtual con Docker Machine 
 
-Para crear la máquina, a la cual llamamos **\*vmmtie\***; se debe ejecutar el siguiente comando: 
+Para crear la máquina, a la cual llamamos MTIE615432; se debe ejecutar el siguiente comando: 
 
     ``` 
-    > docker-machine create --driver virtualbox --virtualbox-cpu-count 2 --virtualbox-disk-size 10000 --virtualbox-memory 4096 --virtualbox-boot2docker-url https://releases.rancher.com/os/latest/rancheros.iso vmmtie
+    > docker-machine create --driver virtualbox --virtualbox-cpu-count 2 --virtualbox-disk-size 10000 --virtualbox-memory 4096 --virtualbox-boot2docker-url https://releases.rancher.com/os/latest/rancheros.iso MTIE615432
     ``` 
     
     _--virtualbox-cpu-count: Número de CPU que se utilizarán para crear la máquina virtual._  
@@ -334,60 +259,3 @@ cap_add:
 
 La cual agrega capacidades del contenedor para aumentar el valor de proceso, establecer políticas de programación en tiempo real y afinidad de CPU, entre otras operaciones. 
 
-<a name="Construido" />
-
-## Construido con 🛠️
-
-_Utilizamos las siguientes herramientas para desarrollar este proyecto_
-
-- [Docker](https://www.docker.com/) - Plataforma abierta para desarrollar, enviar y ejecutar aplicaciones.
-- [Docker Compose](https://docs.docker.com/compose/install/) - Herramienta para definir y ejecutar aplicaciones Docker de varios contenedores.
-- [NodeJS](https://nodejs.org/en/) - Entorno en tiempo de ejecución multiplataforma
-- [Kibana](https://www.elastic.co/es/kibana) - Software de panel de visualización de datos para Elasticsearch. Proporciona capacidades de visualización además del contenido indexado en un clúster de Elasticsearch. 
-- [Elastisearch](https://www.elastic.co/es/) - Servidor de búsqueda basado en Lucene. Provee un motor de búsqueda de texto completo, distribuido y con capacidad de multitenencia con una interfaz web RESTful y con documentos JSON.
-- [Logstash](https://www.elastic.co/es/logstash) - Herramienta para la administración de logs.
-
-<a name="Contribuyendo" />
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/djmai/MMMV-CICD/CONTRIGUTING.md) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-<a name="Wiki" />
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/djmai/MMMV-CICD/wiki)
-
-<a name="Versionado" />
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/djmai/MMMV-CICD/tags).
-
-<a name="Autores" />
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-- **Ing. Miguel Martinez** - [djmai](https://github.com/djmai)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/djmai/MMMV-CICD/CONTRIBUTING.md) quíenes han participado en este proyecto.
-
-<a name="Licencia" />
-
-## Licencia 📄
-
-<a name="Gratitud" />
-
-## Expresiones de Gratitud 🎁
-
-- Comenta a otros sobre este proyecto 📢
-- Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-- Da las gracias públicamente 🤓.
-- etc.
-
----
-
-⌨️ con ❤️ por [Ing. Miguel Martinez](https://github.com/djmai) 😊
