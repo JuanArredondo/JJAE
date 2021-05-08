@@ -39,7 +39,7 @@ alias git="docker run -ti --rm -v $(pwd):/git bwits/docker-git-alpine"
 echo '=========================================================='
 echo '===           PASO 3: CLONANDO REPO                    ==='
 echo '=========================================================='
-git clone https://github.com/djmai/MMMV-CICD.git
+git clone https://github.com/JuanArredondo/JJAE.git
 cd MMMV-CICD
 
 echo '=========================================================='
