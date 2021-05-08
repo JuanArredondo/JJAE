@@ -29,7 +29,7 @@ services:
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: "yes"
       #MYSQL_ROOT_PASSWORD: toor
-      MYSQL_DATABASE: adventure
+      MYSQL_DATABASE: adventureworks20210506
       MYSQL_USER: root
       MYSQL_PASSWORD: mysqladmin
     volumes:
