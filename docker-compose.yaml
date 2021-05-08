@@ -29,9 +29,9 @@ services:
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: "yes"
       #MYSQL_ROOT_PASSWORD: toor
-      MYSQL_DATABASE: adventure
-      MYSQL_USER: mmartinez
-      MYSQL_PASSWORD: P4ssw0rd1
+      MYSQL_DATABASE: AWBackup
+      MYSQL_USER: root
+      MYSQL_PASSWORD: mysqladmin
     volumes:
       # Dump files for initiating tables
       - ~/data/:/docker-entrypoint-initdb.d/
